@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script src="login2.js"></script>
+    <link rel="stylesheet" href="signup.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <form class="sign-up" action="/action_page.php">
+        <div class="container">
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account.</p>
+            <label><b>First Name</b></label>
+            <div class="content">
+                <input type="fn" placeholder="First Name" name="fn" required>
+
+                <label><b>Last Name</b></label>
+                <input type="ln" placeholder="Last Name" name="ln" required>
+
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Password" name="psw" required>
+            </div>
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+            <button type="submit" class="signupbtn">Sign Up</button>
+
+            <div class="clearfix">
+                <button type="button" onclick="location.href='login.html';" class="cancelbtn">Cancel</button>
+            </div>
+        </div>
+    </form>
+    </div>
+
+</body>
+
+</html>
