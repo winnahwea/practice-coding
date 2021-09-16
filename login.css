@@ -27,6 +27,20 @@ input[type="password"] {
   border-radius: 5px;
 }
 
+input[type="checkbox"] {
+  margin-left: 100px;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.content {
+  padding-bottom: 5%;
+}
+
+.sign-up {
+  text-align: center;
+}
+
 button {
   background-color: #1a73e8;
   color: white;
@@ -35,6 +49,7 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -45,8 +60,9 @@ button:hover {
   font-size: 14px;
   padding-left: 10px;
   padding-bottom: 10px;
-
+  font-family: Arial, Helvetica, sans-serif;
   display: none;
+  text-align: center;
 }
 
 .cancelbtn {
@@ -57,6 +73,8 @@ button:hover {
 
 .container {
   padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 
 span.psw {
